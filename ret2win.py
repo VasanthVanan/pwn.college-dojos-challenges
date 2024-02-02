@@ -1,4 +1,4 @@
-# Author: vasanth.vanan (pwn.college dojos username)
+# Username: vasanth.vanan (pwn.college dojos)
 # Title: Classwork challenge for ret2win 
 
 # imported the 'pwntools' library
