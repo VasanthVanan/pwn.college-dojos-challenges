@@ -47,7 +47,7 @@ rem_buffer = offset - len(shellcode)
 # next, appended the remaining bytes to the payload with 'A' characters.
 payload += b'A' * rem_buffer
 
-# atlast, appended the address of the local variable to the payload.
+# atlast, appended the address of the buffer. This can be found by a difference of 4 bytes from the local variable. (Refer stack table image)
 payload += p64(int(addr, 16) + 4)
 
 print(payload)
