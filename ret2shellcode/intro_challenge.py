@@ -5,7 +5,7 @@
 from pwn import *
 
 # stored the path of the binary in a variable
-binary_path = "/challenge/intro_challenge"
+binary_path = "./intro_challenge"
 
 # created a ELF object to check the properties of the binary (similar to checksec tool)
 elf = ELF(binary_path)

@@ -8,7 +8,7 @@ from pwn import *
 context.arch = 'amd64'
 
 # 'ret2win' can be located at /challenge/ret2win. So, performed a local binary analysis with process() function.
-p = process('/challenge/ret2win')
+p = process('./ret2win')
 
 # 'elf' is a global variable which contains the ELF object for the binary. It retrieves context, symbols, entry point, etc.
 elf = context.binary = ELF('/challenge/ret2win', checksec=False)
