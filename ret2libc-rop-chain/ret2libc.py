@@ -5,7 +5,7 @@
 from pwn import *
 
 # assigned the context for the binary analysis to get the context of the binary. 
-context.binary = elf = ELF("/challenge/homework", checksec = False)
+context.binary = elf = ELF("./homework", checksec = False)
 
 #context.log_level = "DEBUG"
 
