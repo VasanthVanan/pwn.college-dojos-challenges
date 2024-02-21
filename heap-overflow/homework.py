@@ -1,5 +1,5 @@
 # Username: vasanth.vanan (pwn.college dojos)
-# Title: Homework challenge on Use-After-Free vulnerability
+# Title: Homework challenge on heap overflow vulnerability
 
 # imported the 'pwntools' library
 from pwn import *

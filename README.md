@@ -13,7 +13,7 @@ This repository contains pwn.college Dojos challenges solved for ENPM809V: Advan
 
 - **Week 3: Heap Vulnerabilities**:
   - Classwork: [Ret2win](https://github.com/VasanthVanan/pwn.college-dojos-challenges/blob/main/heap-overflow/heapoverflow.py)
-  - Homework #3: [Use-After-Free](https://github.com/VasanthVanan/pwn.college-dojos-challenges/blob/main/heap-overflow/homework.py)
+  - Homework #3: [Heap-Overflow](https://github.com/VasanthVanan/pwn.college-dojos-challenges/blob/main/heap-overflow/homework.py)
 
 ## Format String Exploits:
 
